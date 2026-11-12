@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "linspectacles-coredumps-inspector",
+  "name": "Coredumps Inspector",
+  "version": "0.0.9",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/coredumps-inspector",
+  "order": 27,
+  "entrypoint": "coredumps_inspector/applet.py",
+  "factory": "create_applet",
+  "standalone": "standalone.py",
+  "description": "Read-only inspection of coredump records visible through systemd-coredump/coredumpctl.",
+  "platforms": [
+    "linux"
+  ],
+  "read_only": true
+}

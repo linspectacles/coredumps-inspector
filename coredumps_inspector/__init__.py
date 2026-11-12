@@ -1,0 +1,1 @@
+# Coredumps Inspector implementation package.
